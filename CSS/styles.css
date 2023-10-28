@@ -220,6 +220,21 @@ body{
     letter-spacing: 0.32px;
     width: 264px;
 }
+.icon-list {
+    border-radius: 4px;
+    background: var(--cloud);
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+}
+
+.icon-section-one {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 24px 100px;
+}
 
 /*section-two*/
 .section-two{
@@ -267,7 +282,7 @@ body{
     padding-top: 72px;
     list-style: none;
     display: flex;
-    gap: 24px
+    gap: 24px;
 
  }
 .section-three-info {
@@ -302,7 +317,7 @@ body{
     padding-bottom: 32px;
  }
 .section-three-list-item-name{
-    color:var(--navy-blue);
+    color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em;
@@ -314,8 +329,54 @@ body{
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
+    
+}
+/*SECTION FOUR*/
+
+.section-four-info{
+    color: var(--navy-blue);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11em;
+        letter-spacing: 0.72px;
+        
+}
+.section-four-items {
+    padding:72px 156px 120px 156px;
+}
+.section-four-items-list{
+    width: 168px;
+    height: 88px;
+    flex-shrink: 0;
+    list-style: none;    
+
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+.section-four-items {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.icon-section-four{
+    width: 104px;
+    height: 56px;
+    flex-shrink: 0;
+ 
+}
+.icon-section-four {
+    fill: #000;
+    /* Change this to the default color you want */
+    transition: fill 0.3s;
+    /* Add a smooth transition effect */
 }
 
+.section-four-items-list:hover,
+.section-four-items-list:focus{
+    border-color: var(--iris);
+}
 /*footer*/
 .footer{
     background-color: var(--navy-blue);
@@ -445,22 +506,9 @@ body{
 
 /*SVG*/
 
-.icon-list{
-    border-radius: 4px;
-    background: var(--cloud);
-    width: 264px;
-    height: 112px;
-    flex-shrink: 0;
-}
-.icon-section-one{
-    width: 64px;
-    height: 64px;
-    flex-shrink: 0;
-    padding: 0;
-    margin: 24px 100px;
-}
+
 .icon {
-    fill:var(--cloud);
+
     text-decoration: none;
     width: 16px;
     height: 16px;
@@ -471,20 +519,19 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:8px;
-  margin-right: 8px;
-  margin-left:8px;
-  white-space: nowrap;
+
 }
 .icon-ellipse{
  
     width: 40px;
     height: 40px;
-    fill:var(--iris);
     position: relative;
 
 }
 .icon-team{
-   display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
 
