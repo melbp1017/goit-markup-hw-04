@@ -331,6 +331,38 @@ body{
     letter-spacing: 0.32px;
     
 }
+
+.icon {
+    fill: white;
+    text-decoration: none;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--iris);
+
+}
+
+.icon-ellipse {
+
+    width: 40px;
+    height: 40px;
+    position: relative;
+
+}
+
+.icon-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
 /*SECTION FOUR*/
 
 .section-four-info{
@@ -423,11 +455,23 @@ body{
         
 }
 .icon-footer{
-     display: inline-flex;
+    display: inline-flex;
     align-items: flex-start;
     gap: 16px;
     
     padding-top: 17.5px;
+}
+.icon-ellipse-footer {
+
+    width: 40px;
+    height: 40px;
+    position: relative;
+
+}
+.icon-ellipse-footer:hover, 
+.icon-ellipse-footer:hover{
+    fill:#31D0AA;
+    transition: fill 0.3s;
 }
 /*end of Studio Formatting*/
 
@@ -530,32 +574,4 @@ body{
 /*SVG*/
 
 
-.icon {
-    fill: white;
-    text-decoration: none;
-    width: 16px;
-    height: 16px;
-    flex-shrink: 0;
-    position: absolute;
-}
-.icon-link{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: var(--iris);
-
-}
-.icon-ellipse{
- 
-    width: 40px;
-    height: 40px;
-    position: relative;
-
-}
-.icon-team{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-}
 
