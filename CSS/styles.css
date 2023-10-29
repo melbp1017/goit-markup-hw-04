@@ -151,7 +151,7 @@ body{
     align-items: center;
     gap:48px;
     padding-bottom:188px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(46, 47, 66, 0.70);
 }
 
 .hero-button{
@@ -364,13 +364,14 @@ body{
     width: 104px;
     height: 56px;
     flex-shrink: 0;
+    fill:#8E8F99;
  
 }
-.icon-section-four {
-    fill: #000;
-    /* Change this to the default color you want */
+
+.icon-section-four:hover,
+.section-four-items-list:focus{
+    fill: var(--iris);
     transition: fill 0.3s;
-    /* Add a smooth transition effect */
 }
 
 .section-four-items-list:hover,
@@ -379,11 +380,13 @@ body{
 }
 /*footer*/
 .footer{
+    display: flex;
     background-color: var(--navy-blue);
     width: 1440px;
     flex-shrink: 0;
     padding-top:101.5px;
     padding-left:156px;
+    gap:120px;
 }
 .footer-logo {
     color: white;
@@ -395,6 +398,8 @@ body{
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+
+
 .footer-info
 {
     color: var(--cloud);
@@ -404,8 +409,26 @@ body{
     width: 264px;
     padding-top:17.5px;
     padding-bottom:100px;
+   
 }
 
+  
+.footer-social
+{
+    color: white;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        letter-spacing: 0.32px;
+        
+}
+.icon-footer{
+     display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    
+    padding-top: 17.5px;
+}
 /*end of Studio Formatting*/
 
 /*Portfolio Formatting*/
@@ -508,17 +531,18 @@ body{
 
 
 .icon {
-
+    fill: white;
     text-decoration: none;
     width: 16px;
     height: 16px;
     flex-shrink: 0;
-     position: absolute;
+    position: absolute;
 }
 .icon-link{
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: var(--iris);
 
 }
 .icon-ellipse{
